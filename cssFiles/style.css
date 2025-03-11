@@ -1,13 +1,13 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 
-/* img {
+img {
     width: 100%;
     margin: auto;
-} */
+}
 
 hr {
     opacity: .1;
@@ -234,7 +234,8 @@ header .ul1 .dropdown:hover .dropdown-menu {
 }
 
 .sec3 {
-    padding-bottom: 70px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .sec3 .items-text .p1 {
@@ -280,6 +281,11 @@ header .ul1 .dropdown:hover .dropdown-menu {
     padding: 50px 0;
     background-color: #F8FBFE;
     text-align: center;
+}
+
+.sec4 img {
+    width: 50%;
+    /* height: 50px; */
 }
 
 .sec4 .head .p1 {
@@ -477,26 +483,10 @@ header .ul1 .dropdown:hover .dropdown-menu {
     position: relative;
 }
 
-.sec6 .row2 .text {
-    margin-bottom: 0;
-    padding: 20px;
-    color: white;
-    text-align: left;
-    bottom: 0;
-    position: absolute;
-}
-
-.sec6 .row2 .text .p1 {
-    font-size: 14px;
-}
-
-.sec6 .row2 .text .p2 {
-    font-size: 20px;
-    width: 70%;
-    line-height: 1.5;
+.sec6 .img {
     cursor: pointer;
+    margin-top: 10px;
 }
-
 
 /* sec6 */
 
@@ -506,8 +496,9 @@ header .ul1 .dropdown:hover .dropdown-menu {
     padding: 70px 0;
     text-align: center;
 }
-.sec7 .img {
-    width: 60%;
+
+.sec7 img {
+    width: 10%;
     margin: auto;
 }
 
@@ -606,7 +597,7 @@ header .ul1 .dropdown:hover .dropdown-menu {
 /* footer */
 footer {
     padding: 90px 0;
-    height: 400px;
+    height: auto;
     background-image: url(../imgs/footer.webp);
     background-position: center;
     background-size: cover;
@@ -615,6 +606,10 @@ footer {
 footer .row .head {
     padding-bottom: 30px;
     font-size: 20px;
+}
+
+footer .row .head img {
+    width: 60%;
 }
 
 footer .row .head .p1 {
@@ -650,3 +645,264 @@ footer .row .l ul .li {
 }
 
 /* last */
+
+
+@media (max-width: 576px) {
+    /* Header */
+    header .p1 {
+        font-size: 14px;
+    }
+
+    header .blog {
+        background-color: #ff4495;
+    }
+
+    header button {
+        font-size: 16px;
+        padding: 5px 15px;
+    }
+
+    header nav .n1 {
+        background-color: #ff4495;
+        padding: 25px;
+        border-radius: 10px;
+    }
+
+    
+    header .ul1 li a:hover {
+        color: black;
+        border-bottom: none;
+    }
+
+    /* Section 1 */
+    .sec1 {
+        height: auto;
+        padding: 50px 0;
+    }
+    .sec1 .item-text h2 {
+        font-size: 40px;
+        width: 100%;
+    }
+    .sec1 .item-text .p2 {
+        width: 100%;
+        font-size: 16px;
+    }
+    .sec1 .item-text .btn {
+        font-size: 18px;
+        padding: 8px 20px;
+    }
+
+    /* Section 2 */
+    .sec2 .head h2 {
+        width: 100%;
+        font-size: 30px;
+    }
+    .sec2 .card {
+        margin-bottom: 20px;
+    }
+
+    /* Section 3 */
+    .sec3 {
+        padding-bottom: 50px;
+    }
+    .sec3 .items-text h3 {
+        font-size: 30px;
+        width: 100%;
+    }
+    .sec3 .items-text .p3,
+    .sec3 .items-text .p4 {
+        width: 100%;
+    }
+
+    /* Section 4 */
+    .sec4 .head h3 {
+        font-size: 30px;
+    }
+    .sec4 .head .btn-group {
+        width: 100%;
+    }
+    .sec4 .row .card {
+        margin-bottom: 20px;
+    }
+    .sec4 .row .card .p3 {
+        width: 100%;
+    }
+
+    /* Section 5 */
+    .sec5 {
+        padding: 50px 0;
+    }
+    .sec5 .row1 h3 {
+        width: 100%;
+        font-size: 30px;
+    }
+    .sec5 .row2 .p2 {
+        width: 100%;
+    }
+
+    /* Section 6 */
+    .sec6 .head h3 {
+        font-size: 30px;
+    }
+    .sec6 .row2 .text .p2 {
+        width: 100%;
+    }
+
+    /* Section 7 */
+    .sec7 .text .p1 {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .sec7 img {
+        width: 40%;
+        margin: auto;
+    }
+
+    /* Section 8 */
+    .sec8 {
+        height: auto;
+        padding: 50px 0;
+    }
+    .sec8 .row .items {
+        height: auto;
+        background-position: center;
+    }
+    .sec8 .row .items .text {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    /* Footer */
+    .footer .row .head img {
+        width: 50%;
+    }
+    .footer .row .list ul {
+        padding-left: 0;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+    /* header */
+    header .p1 {
+        font-size: 14px;
+    }
+
+    header .blog {
+        background-color: #ff4495;
+    }
+
+    header button {
+        font-size: 16px;
+        padding: 5px 15px;
+    }
+
+    header nav .n1 {
+        background-color: #ff4495;
+        padding: 25px;
+        border-radius: 10px;
+    }
+
+    
+    header .ul1 li a:hover {
+        color: black;
+        border-bottom: none;
+    }
+
+    /* Section 1 */
+    .sec1 .item-text h2 {
+        font-size: 50px;
+        width: 70%;
+    }
+    .sec1 .item-text .p2 {
+        width: 70%;
+    }
+
+    /* Section 2 */
+    .sec2 .head h2 {
+        width: 70%;
+        font-size: 35px;
+    }
+
+    /* Section 3 */
+    .sec3 .items-text h3 {
+        font-size: 35px;
+        width: 90%;
+    }
+    .sec3 .items-text .p3,
+    .sec3 .items-text .p4 {
+        width: 90%;
+    }
+
+    /* Section 4 */
+    .sec4 .head .btn-group {
+        width: 50%;
+    }
+
+    /* Section 5 */
+    .sec5 .row1 h3 {
+        width: 90%;
+    }
+
+    /* Section 7 */
+    .sec7 img {
+        width: 20%;
+        margin: auto;
+    }
+
+    /* Section 8 */
+    .sec8 .row .items .text {
+        margin-left: 10%;
+        margin-top: 20%;
+    }
+
+    /* footer */
+    .footer .row .head img {
+        width: 50%;
+    }
+    .footer .row .list ul {
+        padding-left: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Section 1 */
+    .sec1 .item-text h2 {
+        font-size: 50px;
+        width: 70%;
+    }
+    .sec1 .item-text .p2 {
+        width: 70%;
+    }
+
+    /* Section 2 */
+    .sec2 .head h2 {
+        width: 70%;
+        font-size: 35px;
+    }
+
+    /* Section 4 */
+    .sec4 .head .btn-group {
+        width: 50%;
+    }
+
+    /* Section 5 */
+    .sec5 .row1 h3 {
+        width: 90%;
+    }
+
+    /* Section 8 */
+    .sec8 .row .items .text {
+        margin-left: 50%;
+        margin-top: 15%;
+    }
+
+    /* footer */
+    .footer .row .head img {
+        width: 50%;
+    }
+    .footer .row .list ul {
+        padding-left: 0;
+    }
+}
